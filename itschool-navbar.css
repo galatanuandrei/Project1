@@ -1,0 +1,55 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  
+}
+
+
+.Navbar{
+  background-color: #141e4c;
+  color: white;
+  overflow: auto;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  max-width: 1200px;
+  justify-content: space-between;
+}
+
+.Logo {
+  height: 65px;
+  width: 180px;
+  }
+
+  @media screen and (max-width: 600px){
+    .Logo{
+      height: 32px;
+      width: 90px;
+    }
+  }
+
+.nav-link-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.Links-Nav{
+  background-color: #141e4c;
+  color: white;
+  border: none;
+  font-size: small;
+  cursor: pointer;
+
+}
+
+.Nav-select{
+  background-color: #141e4c;
+  color: white;
+  border: none;
+  font-size: small;
+  cursor: pointer;
+}
